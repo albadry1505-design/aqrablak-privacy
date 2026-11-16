@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>حذف الحساب والبيانات — تطبيق أقربلك (سهل - Sahl)</title>
+  <style>
+    :root {
+      --green: #1E9E5A;
+      --danger: #DC2626;
+      --bg: #FBF8F3;
+      --card: #FFFFFF;
+      --border: #EDE6DA;
+      --text: #1F2937;
+      --muted: #4B5563;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 56px; }
+    header {
+      background: linear-gradient(135deg, #1E9E5A 0%, #15803D 100%);
+      color: #fff;
+      border-radius: 20px;
+      padding: 28px 24px;
+      margin-bottom: 20px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.65rem; }
+    header p { margin: 0; opacity: 0.94; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+    nav a {
+      text-decoration: none;
+      background: var(--card);
+      color: var(--green);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    nav a.active { background: var(--green); color: #fff; border-color: var(--green); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 16px;
+    }
+    h2 { margin-top: 0; color: var(--green); font-size: 1.18rem; }
+    p, li { color: var(--muted); }
+    .danger-btn {
+      display: inline-block;
+      margin-top: 8px;
+      background: var(--danger);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+    .en-section {
+      direction: ltr;
+      text-align: left;
+      border-top: 2px dashed var(--border);
+      margin-top: 24px;
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>حذف الحساب والبيانات — تطبيق أقربلك (سهل - Sahl)</h1>
+      <p>معرّف التطبيق: <code>com.aqrablak.sahl</code></p>
+    </header>
+
+    <nav>
+      <a href="index.html">سياسة الخصوصية</a>
+      <a href="support.html">الدعم الفني والتواصل</a>
+      <a href="delete-account.html" class="active">حذف الحساب والبيانات</a>
+    </nav>
+
+    <section class="card">
+      <h2>الطريقة 1: الحذف الفوري من داخل التطبيق (موصى بها)</h2>
+      <ol>
+        <li>افتح تطبيق <strong>أقربلك</strong> وسجّل الدخول إلى حسابك.</li>
+        <li>انتقل إلى تبويب <strong>حسابي</strong>.</li>
+        <li>انزل إلى قسم <strong>إدارة الحساب والخصوصية</strong> واضغط على <strong>حذف الحساب نهائياً</strong>.</li>
+        <li>أكّد الحذف من نافذة التأكيد ليتم حذف حسابك فوراً.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>الطريقة 2: طلب حذف الحساب عبر البريد الإلكتروني</h2>
+      <p>
+        إذا لم تتمكن من الوصول إلى التطبيق، يمكنك إرسال طلب حذف الحساب من بريدك الإلكتروني المسجّل إلى فريق الدعم:
+      </p>
+      <a class="danger-btn" href="mailto:upperegypttech@gmail.com?subject=طلب%20حذف%20حساب%20أقربلك">إرسال طلب حذف الحساب</a>
+      <p style="margin-top: 12px;">
+        <strong>ما الذي يتم حذفه وما الذي قد يُحتفظ به:</strong>
+        يتم حذف حسابك وبيانات تسجيل الدخول، ومسح بيانات التوصيل المحفوظة والسلة والمفضلة نهائياً.
+        تبقى سجلات الطلبات السابقة لدى المتاجر لأغراض المحاسبة دون ربطها بحسابك الشخصي.
+      </p>
+    </section>
+
+    <section class="card en-section">
+      <h2>Account &amp; Data Deletion (English)</h2>
+      <p>
+        You can delete your <strong>Aqrablak (Sahl)</strong> account immediately in the app via
+        <strong>My Account &rarr; Delete Account Permanently</strong>, or request deletion by emailing
+        <a href="mailto:upperegypttech@gmail.com?subject=Aqrablak%20Account%20Deletion%20Request">upperegypttech@gmail.com</a>
+        from your registered email address.
+      </p>
+      <p>
+        Upon deletion, your authentication profile, saved delivery details, cart, and favorites are permanently removed.
+        Historical store order records may be retained for accounting without linkage to your user account.
+      </p>
+    </section>
+  </div>
+</body>
+</html>

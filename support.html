@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الدعم الفني — تطبيق أقربلك (سهل - Sahl)</title>
+  <style>
+    :root {
+      --green: #1E9E5A;
+      --bg: #FBF8F3;
+      --card: #FFFFFF;
+      --border: #EDE6DA;
+      --text: #1F2937;
+      --muted: #4B5563;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 56px; }
+    header {
+      background: linear-gradient(135deg, #1E9E5A 0%, #15803D 100%);
+      color: #fff;
+      border-radius: 20px;
+      padding: 28px 24px;
+      margin-bottom: 20px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.65rem; }
+    header p { margin: 0; opacity: 0.94; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+    nav a {
+      text-decoration: none;
+      background: var(--card);
+      color: var(--green);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    nav a.active { background: var(--green); color: #fff; border-color: var(--green); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 16px;
+    }
+    h2 { margin-top: 0; color: var(--green); font-size: 1.18rem; }
+    p, li { color: var(--muted); }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 8px;
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+    .en-section {
+      direction: ltr;
+      text-align: left;
+      border-top: 2px dashed var(--border);
+      margin-top: 24px;
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>الدعم الفني والمساعدة — تطبيق أقربلك (سهل - Sahl)</h1>
+      <p>نحن هنا لمساعدتك في الطلبات، الحسابات، أو استفسارات المتاجر</p>
+    </header>
+
+    <nav>
+      <a href="index.html">سياسة الخصوصية</a>
+      <a href="support.html" class="active">الدعم الفني والتواصل</a>
+      <a href="delete-account.html">حذف الحساب والبيانات</a>
+    </nav>
+
+    <section class="card">
+      <h2>طرق التواصل الرسمية</h2>
+      <p>
+        إذا واجهت أي مشكلة في الطلبات أو تسجيل الدخول أو إدارة متجرك داخل التطبيق، يرجى مراسلتنا عبر البريد الإلكتروني الرسمي للدعم:
+      </p>
+      <p><strong>البريد الإلكتروني:</strong> <a href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a></p>
+      <a class="cta-btn" href="mailto:upperegypttech@gmail.com?subject=دعم%20تطبيق%20أقربلك">إرسال رسالة للدعم الفني</a>
+    </section>
+
+    <section class="card">
+      <h2>أسئلة شائعة</h2>
+      <ul>
+        <li><strong>كيف أعدل عنوان التوصيل أو رقم الموبايل؟</strong> من تبويب <strong>حسابي</strong> يمكنك تحديث الاسم ورقم الموبايل والعنوان وحفظها لاستخدامها تلقائياً في الطلبات القادمة.</li>
+        <li><strong>كيف أتابع حالة طلبي أو أرسل شكوى؟</strong> من تبويب <strong>طلباتي</strong> يمكنك متابعة مراحل الطلب الخمس، تأكيد الاستلام، أو إرسال تقييم/شكوى للطلب.</li>
+        <li><strong>كيف أحذف حسابي؟</strong> من تبويب <strong>حسابي</strong> اختر <strong>حذف الحساب نهائياً</strong>، أو راجع <a href="delete-account.html">صفحة حذف الحساب</a>.</li>
+      </ul>
+    </section>
+
+    <section class="card en-section">
+      <h2>Support (English)</h2>
+      <p>
+        For any support inquiries, order issues, merchant onboarding, or account requests for
+        <strong>Aqrablak (Sahl)</strong>, please contact us at:
+        <a href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
