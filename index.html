@@ -107,7 +107,7 @@
   <div class="container">
     <header>
       <h1>سياسة الخصوصية — تطبيق أقربلك (Aqrablak)</h1>
-      <p>معرّف التطبيق: <code>com.aqrablak.sahl</code> • آخر تحديث: 16 نوفمبر 2026</p>
+      <p>معرّف التطبيق: <code>com.aqrablak.sahl</code> • آخر تحديث: 18 نوفمبر 2026</p>
     </header>
 
     <nav>
@@ -130,9 +130,27 @@
 
     <section class="card">
       <h2>2. البيانات التي يجمعها التطبيق</h2>
+      <p>يجمع تطبيق <strong>أقربلك</strong> الحد الأدنى من البيانات اللازمة لتشغيل الخدمة وتنفيذ طلباتك بدقة، وتشمل:</p>
+
+      <h3>أ. بيانات الحساب والمصادقة</h3>
       <ul>
-        <li><strong>بيانات الحساب والمصادقة:</strong> الاسم الكامل، البريد الإلكتروني، ومعرّف المستخدم (عند التسجيل بالبريد الإلكتروني أو عبر تسجيل الدخول بحساب Google).</li>
-        <li><strong>بيانات التوصيل والطلبات:</strong> الاسم، رقم الموبايل المصري، العنوان النصي داخل سوهاج الجديدة (يُدخله المستخدم يدوياً؛ <strong>التطبيق لا يجمع موقع الـ GPS</strong>)، ملاحظات الطلب، وتفاصيل الطلبات السابقة.</li>
+        <li><strong>بيانات الهوية:</strong> الاسم الكامل، البريد الإلكتروني، ومعرّف المستخدم (عند التسجيل بالبريد الإلكتروني أو عبر تسجيل الدخول بحساب Google).</li>
+      </ul>
+
+      <h3>ب. بيانات التوصيل والطلبات</h3>
+      <ul>
+        <li><strong>بيانات الاتصال والعنوان:</strong> الاسم، رقم الموبايل المصري، والعنوان النصي داخل سوهاج الجديدة (يُدخله المستخدم يدوياً؛ <strong>التطبيق لا يجمع موقع الـ GPS</strong>).</li>
+        <li><strong>تفاصيل الطلبات:</strong> محتويات السلة، ملاحظات الطلب، وسجل الطلبات السابقة.</li>
+      </ul>
+
+      <h3>ج. صور الروشتات الطبية (لطلبات الصيدليات)</h3>
+      <ul>
+        <li><strong>الوصفات الطبية والمرفقات:</strong> عند طلب أدوية أو مستحضرات تتطلب وصفة طبية من خلال قسم الصيدليات، قد يطلب التطبيق منك رفع أو التقاط <strong>صورة للروشتة الطبية</strong> (عبر الكاميرا أو معرض الصور بعد منحك الإذن الصريح لذلك).</li>
+        <li>تُستخدم هذه الصور حصراً لتوضيح الأصناف المطلوبة ومراجعتها قبل تجهيز الطلب، ولا تُستخدم لأي أغراض تسويقية أو إعلانية.</li>
+      </ul>
+
+      <h3>د. التقييمات وبيانات المتاجر</h3>
+      <ul>
         <li><strong>التقييمات والشكاوى:</strong> التقييمات والملاحظات التي يرسلها العميل بعد استلام الطلب.</li>
         <li><strong>بيانات المتاجر (لحسابات التجار فقط):</strong> إدارة الأصناف والأسعار وحالة الطلبات الخاصة بالمتجر.</li>
       </ul>
@@ -142,18 +160,19 @@
     <section class="card">
       <h2>3. كيفية استخدام البيانات ومشاركتها</h2>
       <ul>
-        <li><strong>تنفيذ وتوصيل الطلبات:</strong> تُستخدم بياناتك لإرسال الطلب للمتجر المعني وتوصيله إلى عنوانك والتواصل معك عند الحاجة.</li>
+        <li><strong>تنفيذ الطلبات ومشاركتها مع التجار والصيادلة:</strong> تُشارك بيانات التوصيل وتفاصيل الطلب — بما في ذلك <strong>صور الروشتات الطبية</strong> عند إرفاقها — مع <strong>التاجر أو الصيدلي المختص</strong> في المتجر أو الصيدلية التي قمت بالطلب منها، وذلك فقط لغرض مراجعة الروشتة، والتأكد من توافر الأدوية أو المنتجات، وتجهيز الطلب وتوصيله والتواصل معك عند الحاجة.</li>
         <li><strong>مزامنة الحساب:</strong> حفظ عناوينك وبيانات التوصيل وسجل الطلبات بين جلسات الاستخدام.</li>
         <li><strong>إشعارات التجار:</strong> إرسال تنبيهات محلية داخل الجهاز لمديري المتاجر عند ورود طلب جديد.</li>
-        <li><strong>مقدمو الخدمة التقنيون:</strong> يعتمد التطبيق على بنية Supabase الآمنة لاستضافة قاعدة البيانات والمصادقة، وعلى Google OAuth فقط إذا اخترت المتابعة بحساب Google. لا نبيع أو نؤجر بياناتك لأي طرف ثالث.</li>
+        <li><strong>مقدمو الخدمة التقنيون:</strong> يعتمد التطبيق على بنية Supabase الآمنة لاستضافة قاعدة البيانات والمصادقة وتخزين مرفقات الطلبات، وعلى Google OAuth فقط إذا اخترت المتابعة بحساب Google. لا نبيع أو نؤجر بياناتك أو صور الروشتات لأي طرف ثالث.</li>
       </ul>
     </section>
 
     <section class="card">
       <h2>4. تخزين البيانات وأمانها</h2>
       <ul>
-        <li>تُرسل جميع البيانات عبر اتصال مشفر بالكامل (<strong>HTTPS / TLS</strong>).</li>
+        <li>تُرسل جميع البيانات ومرفقات الطلبات (بما فيها صور الروشتات الطبية) عبر اتصال مشفر بالكامل (<strong>HTTPS / TLS</strong>).</li>
         <li>تُحفظ رموز الجلسة وبيانات الاتصال محلياً على جهازك باستخدام مخزن آمن مشفر (iOS Keychain / Android Secure Storage).</li>
+        <li>يقتصر الوصول إلى صور الروشتات وبيانات الطلب على العميل صاحب الطلب والتاجر/الصيدلي المسؤول عن تنفيذ الطلب فقط.</li>
       </ul>
     </section>
 
@@ -174,19 +193,20 @@
     <section class="card en-section">
       <h2>Privacy Policy Summary (English)</h2>
       <p>
-        <strong>Aqrablak</strong> (<code>com.aqrablak.sahl</code>) is a local food and grocery delivery app serving New Sohag City.
+        <strong>Aqrablak</strong> (<code>com.aqrablak.sahl</code>) is a local food, grocery, and pharmacy delivery app serving New Sohag City.
         Contact us at <a class="email-link" href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>.
       </p>
       <h3>Data We Collect</h3>
       <ul>
         <li><strong>Account Info:</strong> Full name, email address, and user ID via Supabase Auth (including optional Google Sign-In).</li>
         <li><strong>Delivery &amp; Order Info:</strong> Name, phone number, manually entered street/district address (we do <strong>not</strong> collect device GPS location), order notes, order history, and order ratings/feedback.</li>
+        <li><strong>Medical Prescriptions (Pharmacy Orders):</strong> When placing pharmacy orders that require a prescription, the app may request permission to capture or upload photos of medical prescriptions.</li>
       </ul>
-      <h3>How We Use &amp; Protect Data</h3>
+      <h3>How We Use, Share &amp; Protect Data</h3>
       <ul>
-        <li>Data is used strictly for account authentication, order fulfillment, customer support, and merchant order notifications.</li>
+        <li>Order details, delivery info, and any uploaded medical prescription images are shared directly with the selected <strong>merchant or pharmacist</strong> solely to review, prepare, and deliver your order, as well as for authentication, customer support, and merchant notifications.</li>
         <li>We do <strong>not</strong> sell user data, show third-party ads, or use cross-app tracking SDKs.</li>
-        <li>All network traffic uses HTTPS/TLS, and credentials/PII stored on-device are protected using iOS Keychain / Android Encrypted Storage.</li>
+        <li>All network traffic (including prescription images) uses HTTPS/TLS, and credentials/PII stored on-device are protected using iOS Keychain / Android Encrypted Storage.</li>
       </ul>
       <h3>Account &amp; Data Deletion</h3>
       <p>
