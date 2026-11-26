@@ -107,7 +107,7 @@
   <div class="container">
     <header>
       <h1>سياسة الخصوصية — تطبيق أقربلك (Aqrablak)</h1>
-      <p>معرّف التطبيق <code>com.aqrablak.sahl</code> • آخر تحديث <time datetime="2026-11-25">25 نوفمبر 2026</time></p>
+      <p>معرّف التطبيق <code>com.aqrablak.sahl</code> • آخر تحديث <time datetime="2026-11-26">26 نوفمبر 2026</time></p>
     </header>
 
     <nav>
@@ -147,13 +147,11 @@
       <ul>
         <li><strong>التقييمات والشكاوى.</strong> التقييمات والملاحظات والشكاوى التي ترسلها بخصوص طلب، والمعلومات التي تختار مشاركتها عند التواصل مع الدعم.</li>
         <li><strong>بيانات التجار.</strong> بيانات إدارة المتجر وأصنافه وأسعاره وحالات طلباته ورقم WhatsApp الخاص به عند تهيئته لاستقبال التنبيهات.</li>
+        <li><strong>صور المتاجر والأصناف (للتجار المخولين فقط).</strong> يمكن لصاحب المتجر أو المشرف المخوّل اختيار صورة من جهازه لتعيين شعار المتجر أو صور الأصناف عبر منتقي الصور الخاص بالنظام (System Photo Picker). يقرأ التطبيق الصورة التي يختارها التاجر فقط ولا يفحص باقي مكتبة الصور، ولا يطلب إذن الكاميرا، ولا يطلب الوصول إلى الصور من حسابات العملاء العاديين. تُرفع الصور المختارة عبر اتصال مشفر HTTPS إلى تخزين Supabase وتُعرض بشكل عام للعملاء داخل كتالوج المتجر في التطبيق.</li>
       </ul>
       <h3>د. تحديثات التطبيق والتشخيص</h3>
       <p>عند التحقق من التحديثات، تتلقى خدمة Expo Update معرّفًا عشوائيًا لتثبيت التطبيق، وعنوان IP وبيانات الإصدار والتحديث. عند تعذّر تشغيل تحديث، قد تتلقى الخدمة معرّفات التحديثات التي فشل تشغيلها ورسالة خطأ التشغيل. تُستخدم هذه البيانات لتقديم التحديثات وقياس وصولها وتشخيص أخطاء التشغيل. معرّف التثبيت مستقل عن حساب أقربلك وعن معرّف الجهاز الإعلاني.</p>
       <p><span class="badge">لا إعلانات ولا تتبع تسويقي</span> لا يبيع التطبيق البيانات الشخصية ولا يستخدم بيانات Expo Update للتتبع الإعلاني عبر التطبيقات أو المواقع.</p>
-
-      <h3>هـ. رمز الإشعارات</h3>
-      <p>عندما يسجّل العميل الدخول ويمنح التطبيق إذن الإشعارات، يحصل التطبيق من خدمة Expo Push على رمز إشعارات خاص بالجهاز ويحفظه في قاعدة بياناتنا على Supabase مرتبطًا بمعرّف حسابك ونوع المنصة (iOS أو Android) وتاريخ آخر تحديث. نستخدم الرمز فقط لإرسال تذكير بحالة التوصيل، مثل سؤالك هل وصل طلبك بعد مرور 45 دقيقة على خروجه للتوصيل، ويظهر في الإشعار رقم الطلب. تمر الإشعارات عبر Expo وخدمتي Apple (APNs) وGoogle (FCM). لا نستخدم الرمز للإعلانات أو التتبع. يطلب التطبيق حذف الرمز عند تسجيل الخروج.</p>
     </section>
 
     <section class="card">
@@ -162,7 +160,8 @@
         <li><strong>تنفيذ الطلبات والدعم.</strong> نشارك بيانات التوصيل وتفاصيل الطلب اللازمة مع المتجر المعني لتجهيز الطلب وتوصيله والتواصل معك بشأنه. يمكن للمشرفين المخولين الوصول إليها للتشغيل وحل مشكلات الطلبات.</li>
         <li><strong>حفظ بياناتك.</strong> يحفظ التطبيق بيانات التوصيل والسلة والمفضلة على جهازك لاستخدامها مرة أخرى. يُحفظ سجل الطلبات في حسابك.</li>
         <li><strong>إشعارات التجار.</strong> قد يعرض التنبيه المحلي على جهاز التاجر اسم المستلم وملخص أصناف الطلب. عند تهيئة تنبيهات WhatsApp، نرسل إلى WhatsApp من Meta رقم الطلب واسم المتجر ورقم هاتف التاجر لإبلاغه بوجود طلب جديد.</li>
-        <li><strong>مقدمو الخدمة.</strong> نستعين بـ Supabase في استضافة البيانات والمصادقة، وبـ Apple أو Google عند اختيار تسجيل الدخول من خلالهما، وبـ Expo لتوزيع التحديثات وتشخيص أخطائها ولتمرير إشعارات الدفع عبر Apple وGoogle. نطلب من الجهات التي تتلقى بيانات شخصية استخدامها للغرض الموضح وحمايتها بمستوى يماثل ما توضحه هذه السياسة.</li>
+        <li><strong>صور الكتالوج العامة.</strong> الصور التي يرفعها التاجر لشعار المتجر أو الأصناف تظهر بشكل عام لجميع مستخدمي التطبيق أثناء تصفح المتجر ومنتجاته؛ لذا يُنصح برفع صور تجارية للمتجر والمنتجات فقط دون بيانات شخصية.</li>
+        <li><strong>مقدمو الخدمة.</strong> نستعين بـ Supabase في استضافة البيانات وتخزين صور الكتالوج والمصادقة، وبـ Apple أو Google عند اختيار تسجيل الدخول من خلالهما، وبـ Expo لتوزيع التحديثات وتشخيص أخطائها. نطلب من الجهات التي تتلقى بيانات شخصية استخدامها للغرض الموضح وحمايتها بمستوى يماثل ما توضحه هذه السياسة.</li>
       </ul>
     </section>
 
@@ -181,13 +180,16 @@
         نحتفظ ببيانات الحساب والطلبات المرتبطة به أثناء استخدامك للخدمة. لحذف الحساب افتح تبويب <strong>حسابي</strong> واختر <strong>حذف الحساب نهائياً</strong>. إذا كان عندك طلب جارٍ، يمكنك إكمال الحذف بعد تسليمه أو إلغائه. قد يطلب التطبيق تأكيد تسجيل الدخول عبر Apple لإلغاء التفويض.
       </p>
       <p>
-        عند اكتمال الحذف، نحذف الحساب وبيانات تسجيل الدخول والتقييمات ورموز الإشعارات، ونزيل بيانات التوصيل وملاحظات العميل من الطلبات السابقة ونفصلها عن الحساب. يمسح التطبيق البيانات المحلية المرتبطة بالحساب، ومنها العناوين والسلة والمفضلة. نحتفظ بالسجلات التشغيلية والمالية للطلبات، مثل رقم الطلب وتاريخه وحالته والأصناف والكميات والمبالغ وحصص المتاجر، لأغراض المحاسبة وتسوية العمولات دون ربطها بحسابك.
+        عند اكتمال الحذف، نحذف الحساب وبيانات تسجيل الدخول والتقييمات، ونزيل بيانات التوصيل وملاحظات العميل من الطلبات السابقة ونفصلها عن الحساب. يمسح التطبيق البيانات المحلية المرتبطة بالحساب، ومنها العناوين والسلة والمفضلة. نحتفظ بالسجلات التشغيلية والمالية للطلبات، مثل رقم الطلب وتاريخه وحالته والأصناف والكميات والمبالغ وحصص المتاجر، لأغراض المحاسبة وتسوية العمولات دون ربطها بحسابك.
       </p>
       <p>
         قد تحتفظ Expo بمعرّف التثبيت وعنوان IP وبيانات التحديث في سجلات خدمة التحديث. تحتفظ برسائل خطأ التشغيل في سجلات الطلبات لمدة ثلاثة أيام. تُدار هذه البيانات بمعزل عن حساب أقربلك.
       </p>
       <p>
-        يمكنك تغيير إذن الإشعارات من إعدادات الجهاز، وإدارة تفويض تسجيل الدخول من إعدادات حساب Apple أو Google. للاستفسار عن بياناتك أو لطلب حذفها إذا تعذّر عليك الوصول إلى التطبيق، تواصل معنا عبر <a class="email-link" href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>. راجع <a class="email-link" href="delete-account.html">صفحة حذف الحساب</a> لمعرفة الخطوات.
+        يمكن للتاجر استبدال أو إزالة شعار المتجر أو صور الأصناف في أي وقت من شاشة إدارة المتجر؛ وتظل صور الكتالوج العامة مرتبطة بصفحة المتجر ما لم يُزلها التاجر أو يُطلب حذفها عبر الدعم.
+      </p>
+      <p>
+        يمكنك تغيير إذن الإشعارات أو إذن الوصول إلى الصور من إعدادات الجهاز، وإدارة تفويض تسجيل الدخول من إعدادات حساب Apple أو Google. للاستفسار عن بياناتك أو لطلب حذفها إذا تعذّر عليك الوصول إلى التطبيق، تواصل معنا عبر <a class="email-link" href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>. راجع <a class="email-link" href="delete-account.html">صفحة حذف الحساب</a> لمعرفة الخطوات.
       </p>
     </section>
 
@@ -202,14 +204,15 @@
         <li><strong>Account and sign-in.</strong> Name when available, email address, account ID, and session information needed for Apple, Google, or registered email sign-in.</li>
         <li><strong>Delivery and orders.</strong> Recipient name, phone number, and manually entered delivery address, plus order items, quantities, prices, fees, status, notes, and history. The app does not request device location permission or collect GPS coordinates. Customers pay in cash on delivery.</li>
         <li><strong>Feedback and merchant details.</strong> Ratings, comments, complaints, information you choose to send to support, and store and order management information for merchants. This includes the store's WhatsApp number when configured for alerts.</li>
+        <li><strong>Merchant catalog images (authorized merchants only).</strong> Store owners and authorized administrators can select images from their device using the operating system's photo picker to upload a store logo or product photos. The app accesses only the specific image selected by the merchant, does not scan the rest of the photo library, does not request camera access, and does not request photo access from customer accounts. Selected images are uploaded over HTTPS to Supabase Storage and displayed publicly to users browsing the store catalog in the app.</li>
         <li><strong>Updates and diagnostics.</strong> Expo Update receives a random app installation identifier, IP address, and build and update information when the app checks for updates. If an update fails to launch, Expo may receive the failed update IDs and a launch error. These data are used to deliver updates, measure their delivery, and diagnose launch problems. The installation identifier is independent of your Aqrablak account and your device's advertising identifier.</li>
-        <li><strong>Notification token.</strong> When a customer signs in and allows notifications, the app obtains a device push token from Expo's push service and stores it in our Supabase database with your account ID, the platform (iOS or Android), and a last-updated time. We use it only to send delivery-status reminders, such as asking whether your order arrived 45 minutes after it left for delivery; the notification shows the order number. Notifications are routed through Expo and Apple (APNs) and Google (FCM). We do not use the token for advertising or tracking. The app asks to delete the token when you sign out.</li>
       </ul>
       <h3>How We Use, Share &amp; Protect Data</h3>
       <ul>
         <li>We share the delivery and order details needed by each assigned merchant to prepare and deliver the order and contact the recipient. Authorized staff can access order data for operations and support. The app saves delivery details, cart, and favorites on your device, and order history in your account.</li>
         <li>Local alerts on a merchant's device may show the recipient's name and a summary of order items. If WhatsApp alerts are configured, Meta's WhatsApp service receives the order number, store name, and merchant phone number for the alert.</li>
-        <li>We use Supabase for hosting and authentication, Apple or Google for your chosen social sign-in, and Expo for updates, update diagnostics, and routing push notifications through Apple and Google. We require recipients of personal data to use it for the stated purpose and protect it to a comparable standard. We do not sell personal data, display advertising, or use Expo Update data to track you across apps or websites for advertising.</li>
+        <li>Store logos and product photos uploaded by merchants are publicly visible to anyone browsing the Aqrablak catalog; merchants should upload commercial store and product photos only.</li>
+        <li>We use Supabase for hosting, catalog image storage, and authentication, Apple or Google for your chosen social sign-in, and Expo for updates and update diagnostics. We require recipients of personal data to use it for the stated purpose and protect it to a comparable standard. We do not sell personal data, display advertising, or use Expo Update data to track you across apps or websites for advertising.</li>
         <li>The app uses HTTPS for sign-in, order services, and updates. It uses the operating system's secure storage for session tokens and saved contact details, and AES-GCM encryption for larger local records that contain personal data.</li>
       </ul>
       <h3>Account &amp; Data Deletion</h3>
@@ -217,13 +220,16 @@
         We retain account and associated order data while you use the service. In the app, open <strong>My Account</strong> and choose <strong>Delete Account Permanently</strong>. You can complete deletion once open orders have been delivered or cancelled. The app may ask you to confirm your Apple sign-in so it can revoke authorization.
       </p>
       <p>
-        When deletion completes, we delete the account, sign-in data, feedback, and notification tokens, and remove delivery details and customer notes from past orders. The app clears account data stored locally, including saved addresses, cart, and favorites. We retain order records such as references, dates, status, items, quantities, amounts, and merchant shares for accounting and commission settlement without linking them to your account.
+        When deletion completes, we delete the account, sign-in data, and feedback, and remove delivery details and customer notes from past orders. The app clears account data stored locally, including saved addresses, cart, and favorites. We retain order records such as references, dates, status, items, quantities, amounts, and merchant shares for accounting and commission settlement without linking them to your account.
       </p>
       <p>
         Expo can retain installation identifiers, IP addresses, and update information in its update records. Expo retains launch error text in request logs for three days. These records are managed separately from your Aqrablak account.
       </p>
       <p>
-        You can change notification permissions in your device settings and manage sign-in authorization in your Apple or Google account settings. If you cannot access the app or have a privacy or deletion request, contact <a class="email-link" href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>. See the <a class="email-link" href="delete-account.html">account deletion instructions</a> for details.
+        Merchants can replace or remove a store logo or product photo at any time from Store Management. Public catalog images belong to the store listing and remain visible while the store or product is listed unless removed by the merchant or requested via support.
+      </p>
+      <p>
+        You can manage notification and photo access permissions in your device settings and manage sign-in authorization in your Apple or Google account settings. If you cannot access the app or have a privacy or deletion request, contact <a class="email-link" href="mailto:upperegypttech@gmail.com">upperegypttech@gmail.com</a>. See the <a class="email-link" href="delete-account.html">account deletion instructions</a> for details.
       </p>
     </section>
 
